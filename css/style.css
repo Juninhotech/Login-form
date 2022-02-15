@@ -1,0 +1,108 @@
+body{
+    margin: 0;
+    padding: 0%;
+    background-image: url("../image/bgg.jpg");
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    background-size: cover;
+    
+}
+
+.background{
+    height: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.jj{
+    width: 90px;
+    height: 90px;
+    border-radius: 50%;
+    position: absolute;
+    top: -45px;
+    left: calc(50% - 45px);
+    border: 2px solid rgb(206, 71, 22);
+
+}
+
+.first-container h1{
+    text-align: center;
+    font-size: 2.0rem;
+    font-family: "Montserrat";
+    font-weight: bolder;
+
+}
+
+
+.first-container{
+    width: 350px;
+    height: 420px;
+    background-color: #0a4044;
+    color: white;
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    box-sizing: border-box;
+    padding: 60px 20px;
+
+}
+
+.first-container input{
+    width: 95%;
+    margin: 0;
+
+}
+.textbox p{
+    font-size: 1.1rem;
+    font-family: "Corbel";
+    font-weight: bolder;
+
+
+}
+
+.textbox input[type="text"], input[type="password"]
+{
+    border: none;
+    border-bottom: 2px solid white;
+    outline: hidden;
+    background: none;
+    color: white;
+    height: 30px;
+}
+
+
+
+.textbox input[type="button"]
+{
+    font-family: "merriweather";
+    font-size: 1.0rem;
+    margin-top: 20px;
+    padding: 5px;
+    width: 100%;
+    border-radius: 30px;
+    border: none;
+    border: 1px solid rgb(206, 71, 22);
+    
+}
+
+.atag{
+    font-family: inherit;
+    padding: 20px;
+    display: inline-block;
+    text-decoration: none;
+    color: inherit;
+}
+
+.atag:hover{
+    color: rgb(206, 71, 22);
+    
+}
+
+.textbox input[type="button"]:hover
+{
+    background-color: rgb(206, 71, 22);
+    
+}
